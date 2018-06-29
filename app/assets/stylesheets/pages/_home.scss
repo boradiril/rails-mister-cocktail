@@ -1,0 +1,59 @@
+// Specific CSS for your home-page
+
+
+.cocktail-container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+  text-align: center;
+}
+
+.index-header h1 {
+  text-align: center;
+}
+
+.banner-index {
+  // background-image: asset-url('Cocktail-Masterclass-Stock-Photo.jpg');
+  background-image:
+    linear-gradient(-225deg, rgba(10, 10, 10, 10), rgba(0, 0, 61, 0.6) 50%), url('Cocktail-Masterclass-Stock-Photo.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-show {
+  // background-image: asset-url('Cocktail-Masterclass-Stock-Photo.jpg');
+  background-image:
+    linear-gradient(-225deg, rgba(10, 10, 10, 10), rgba(0, 0, 61, 0.6) 50%), url('Cocktail-Masterclass-Stock-Photo.jpg');
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Galada');
+
+.home-title h2 {
+  font-family: 'Galada', cursive;
+  color: white;
+}
+
+
+#bullets li {
+    list-style-type: none;
+}
+#bullets {
+    padding-left: 0px !important;
+  }
+
+// font-family: 'Galada', cursive;
